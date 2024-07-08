@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Coupon Code Storage</title>
+    <link rel="stylesheet" href="coupon.css">  
+</head>
+<body>
+    <header>  
+        <nav>  
+            <ul>  
+                <li><a href="#">Home</a></li>  
+                <li><a href="#">Sell Coupon Code</a></li>  
+                <li><a href="#">Buy Coupon Code</a></li>  
+                <li><a href="#">My Account</a></li>  
+            </ul>  
+        </nav>  
+    </header>  
+    <main>  
+        <section id="search-section">  
+            <h2>Search for Coupon Codes</h2>  
+            <input placeholder="Search by product or code" id="search-input" type="text">  
+            <button id="search-button">Search</button>  
+            <ul id="coupon-code-list">  
+                  
+            </ul>  
+        </section>  
+        <section id="sell-section">  
+            <h2>Sell Your Coupon Code</h2>  
+            <form id="sell-form">  
+                <label for="code">Coupon Code:</label> 
+                <input name="code" id="code" type="text">  
+                <label for="value">Value:</label>  
+                <input name="value" id="value" type="number">  
+                <label for="expiration-date">Expiration Date:</label>  
+                <input name="expiration-date" id="expiration-date" type="date">  
+                <label for="product">Product:</label>  
+                <input name="product" id="product" type="text">  
+                <button id="sell-button">Sell</button>  
+            </form>  
+        </section>  
+    </main>
+    <script src="coupon.js"></script>
+    <script src="server.js"></script> 
+    </body>
+    </html>
+      
+  
+  
