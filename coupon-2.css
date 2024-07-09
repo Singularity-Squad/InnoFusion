@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color:  #648282;;
+    padding: 10px;
+    text-align: center;
+    border-top-right-radius: 0.5rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url('coupon5.jpg');
+    background-size: cover;
+    color:rgb(15, 14, 14)
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top:80px;
+}
+
+
+#navbar {
+   background-color: #293036; 
+   height:2rem;
+   display:flex;
+    align-items:center;
+    justify-content: center;
+    border-bottom-right-radius: 0.5rem;
+}
+
+
+#nav-list {
+    list-style: none;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:18rem
+}
+
+a {
+    text-decoration: none;
+    color:aliceblue;
+}
+
+
+#sell-form{
+    row-gap:0.5rem;
+}
+
+
+a:hover {
+    border:2px solid white;
+}
+
