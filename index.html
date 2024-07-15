@@ -3,53 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOGIN PAGE</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Coupon Code website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="coupon-2.css"> 
 </head>
-<body>   
-
-    <div class="container">
-        <video autoplay loop muted plays-inline class="video">
-            <source src="video.mp4" type="video/mp4">
-        </video>
-        <div class="login">
-            <h1 id="title">Sign up</h1>
-            <form>
-                <div class="input-group" >
-                    <div class="input-field" id="namefield">
-                        <i class="bi bi-person-fill"></i>   
-                            <input  type="text" placeholder="Name" id="name">
-                       
-                        
-                    </div>
-                    <div class="input-group">
-                        <div class="input-field" id="namefield">
-                            <i class="bi bi-envelope-at-fill"></i>
-                                <input type="email" placeholder="Email" id="mail">
-                        </div>
-                        <div class="input-group">
-                            <div class="input-field">
-                                <i class="bi bi-person-circle"></i>
-                                    <input type="text" placeholder="Username" id="name">           
-                            </div>
-                        <div class="input-group">
-                            <div class="input-field">
-                                <i class="bi bi-file-lock2-fill"></i>  
-                                    <input type="password" placeholder="Password" id="password">           
-                            </div>
-                            <p  class="text">Forget Password <a href="#">Click Here</a></p>
-                </div>
-                <div class="btn">
-                    <button type="button" id ="signup">Sign Up</button>
-                    <button type="button" id="signin" class="disable" >Sign In</button>
-                </div>
+<body>
+    <header>
+        <h1>Welcome to our Coupon Code Store</h1>
+    </header>
+    <div id="navbar">  
+            <ul id="nav-list">  
+                <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>  
+                <li><a href="#"><i class="fa-brands fa-sellcast"></i> Sell Coupon Code</a></li>  
+                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i> Buy Coupon Code</a></li>  
+            </ul>  
+          
+    </div>  
+    <main>
+        <div id="coupons">
+            <h2>Available Coupons</h2>
+            <ul id="coupon-list">
+                    <!-- Coupons will be dynamically generated here -->
+            </ul>
+        </div>
+        <div id="checkout">
+            <h2>Checkout</h2>
+            <form id="checkout-form">
+                <label for="coupon-code"><b><big>Enter Coupon Code:</label></b></big>
+                <input type="text" id="coupon-code" name="coupon-code" required>
+                <button type="submit">Apply Coupon</button>
             </form>
         </div>
-    </div>
-   
-    <script src="script.js">
-       
-</script>
+        <div id="sell-section">  
+            <h2><b>Sell Your Coupon Code</h2> </b> 
+            <form id="sell-form">  
+                <label for="code"><b><big>Coupon Code:</label> </b></big>
+                <input name="code" id="code" type="text">  
+                <label for="value"><b><big>Value:</label> </b> </big>
+                <input name="value" id="value" type="number">  
+                <label for="expiration-date"><b></b><big>Expiration Date:</label></big></b>  
+                <input name="expiration-date" id="expiration-date" type="date">  
+                <label for="product"><b><big>Product:</label> </b> </big>
+                <input name="product" id="product" type="text">  
+                <button id="sell-button">Sell</button>  
+            </form>  
+        </div>  
+    </main>
+    <footer>
+        <p>&copy; 2023 Coupon Code Store. All rights reserved.</p>
+    </footer>
+    <script src="coupon-2.js"></script>
 </body>
 </html>
