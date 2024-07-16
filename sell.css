@@ -43,10 +43,10 @@ button {
 footer {
     background-color: #333;
     color: white;
-    position: sticky;
+    position: absolute;
     text-align: bottom;
     padding: 10px;
-    margin-bottom: 0%;
+    margin-bottom: 0px;
 }
 
 
