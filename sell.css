@@ -10,6 +10,7 @@ header {
     padding: 10px;
     text-align: center;
     border-top-right-radius: 0.5rem;
+    width: 100%;
 }
 main {
     max-width: 800px;
@@ -45,7 +46,6 @@ footer {
     color: white;
     text-align: bottom;
     padding: 10px;
-    margin-bottom: 0px;
     display:block;
     width:100%;
     position:absolute;
