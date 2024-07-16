@@ -48,6 +48,8 @@ footer {
     margin-bottom: 0px;
     display:block;
     width:100%;
+    position:absolute;
+    bottom:0px;
 }
 
 footer p {
