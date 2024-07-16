@@ -11,7 +11,6 @@ header {
     text-align: center;
     border-top-right-radius: 0.5rem;
 }
-
 main {
     max-width: 800px;
     margin: 0 auto;
@@ -46,7 +45,7 @@ footer {
     color: white;
     text-align: bottom;
     padding: 10px;
-    margin-bottom:0%;
+    margin-top: 5rem;
 }
 
 
