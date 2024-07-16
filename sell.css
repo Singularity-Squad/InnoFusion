@@ -60,12 +60,13 @@ footer p {
 
 
 #navbar {
-   background-color: #293036; 
-   height:2rem;
-   display:flex;
+    background-color: #293036; 
+    height:2rem;
+    display:flex;
     align-items:center;
     justify-content: center;
     border-bottom-right-radius: 0.5rem;
+    width: 100%;
 }
 
 
