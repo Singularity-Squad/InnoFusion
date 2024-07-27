@@ -18,7 +18,8 @@ fetch(csvUrl)
 
             const content = document.createElement('div');
             content.classList.add('card-content');
-            content.textContent = `
+            //content.textContent = `
+            content.innerHTML = `
                 <strong>Platform:</strong> ${row[headers.indexOf('platform')]}
                 <br>
                 <strong>Code:</strong> ${row[headers.indexOf('code')]}
