@@ -22,7 +22,7 @@ fetch(csvFile)
       card.innerHTML = `
         <h2>${title}</h2>
         <p>${description}</p>
-        <img src="http://wallpapers.com/images/featured/forest-o8tny79q1njt8ahw.jpg"></img>
+        <img src=${imgs}></img>
       `;
       cardContainer.appendChild(card);
     }
