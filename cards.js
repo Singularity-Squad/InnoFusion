@@ -26,7 +26,7 @@ fetch(csvFile)
                 </div>
                 <div class="center">
                   <div>
-                   <img src="https://seeklogo.com/images/F/flipkart-logo-C9E637A758-seeklogo.com.png" id="resize">
+                   <img src=${imgs} id="resize">
                     <h3>50% OFF</h3>
                     <small>Valid until May 2023</small>
                   </div>
