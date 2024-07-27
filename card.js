@@ -27,8 +27,6 @@ fetch(csvUrl)
                 <strong>Platform:</strong> ${plats}
                 <br>
                 <strong>Code:</strong> ${codeds}
-                <h1>hii</h1>
-                <h1>${imgs}<br>${plats}<br>${codeds}</h1>
             `;
             card.appendChild(content);
 
