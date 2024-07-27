@@ -22,12 +22,12 @@ fetch(csvUrl)
             content.classList.add('card-content');
             //content.textContent = `
             content.innerHTML = `
-                <img src="${imgs}>
+                <img src=${imgs}>
                 <br>
                 <strong>Platform:</strong> ${plats}
                 <br>
                 <strong>Code:</strong> ${codeds}
-                
+
             `;
             card.appendChild(content);
 
