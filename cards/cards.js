@@ -1,4 +1,4 @@
-//const csvFile = "https://raw.githubusercontent.com/Singularity-Squad/InnoFusion/site/cards/data.csv"; // Replace with your CSV file path
+//const csvFile = "https://raw.githubusercontent.com/Singularity-Squad/InnoFusion/site/cards/data.csv";
 const csvFile = "data.csv";
 
 fetch(csvFile)
