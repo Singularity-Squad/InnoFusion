@@ -13,7 +13,7 @@
          <a class="nav-bar-logo" href="#"><b>Couponary.in</b></a>
          <ul class="nav-bar-links">  
           <li><a href="#home" class="border"><i class="fa-solid fa-house"></i> Home</a></li>  
-          <li><a href="https://couponary.netlify.app/sell.html" class="border"><i class="fa-brands fa-sellcast"></i> Sell</a></li>  
+          <li><a href="sell.html" class="border"><i class="fa-brands fa-sellcast"></i> Sell</a></li>  
           <li><a href="#buy-page" class="border" id="buy"><i class="fa-solid fa-cart-shopping"></i> Buy</a></li>  
           <li><a href="#" class="border"><i class="fa-solid fa-circle-info"></i> About</a></li>  
  
@@ -58,9 +58,7 @@
         </div>
   </div> 
   <div class="payment" id="popup">
-    <p id="result-message"></p>
-    <script src="https://www.paypal.com/sdk/js?client-id=AbkO3yJSJn_Wq0fz6d89Wa_TPjJGu-VjU1qcNx3nxadQ1Kefp6FxlBfdBEh20ZfpIM7QIi77ltM_pDC6&components=buttons&enable-funding=venmo,paylater" data-sdk-integration-source="integrationbuilder_sc"></script>
-    <script src="app.js"></script>
+    <iframe src="paypal/client/checkout.html" width="300" height="200"></iframe>
     <button onclick="close_popup()">Done</button>
   </div>
     </section>  
