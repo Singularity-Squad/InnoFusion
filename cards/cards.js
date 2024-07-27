@@ -7,6 +7,7 @@ fetch(csvFile)
     const headers = rows[0].split(',');
     const titleIndex = headers.indexOf('title');
     const descriptionIndex = headers.indexOf('description');
+    const imgindex = headers.indexOf('image');
 
     const cardContainer = document.getElementById('card-container');
 
@@ -14,12 +15,14 @@ fetch(csvFile)
       const row = rows[i].split(',');
       const title = row[titleIndex];
       const description = row[descriptionIndex];
+      const imgs = row[imgindex];
 
       const card = document.createElement('div');
       card.classList.add('card');
       card.innerHTML = `
         <h2>${title}</h2>
         <p>${description}</p>
+        <img src=${imgs}</img>
       `;
       cardContainer.appendChild(card);
     }
