@@ -19,8 +19,8 @@ fetch(csvFile)
       const card = document.createElement('div');
       card.classList.add('card');
       card.innerHTML = `
-        <h2>${title}</h2>
-        <p>${description}</p>
+        <!-- <h3>${title}</h3> -->
+        <h3>${description}</h3>
         <img src=${imgs}></img>
       `;
       cardContainer.appendChild(card);
