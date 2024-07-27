@@ -47,14 +47,6 @@ fetch(csvFile)
         <img src=${imgs}>
       `;
       cardContainer.appendChild(card);
-
-    }
-  })
-
-  .catch(error => console.error('Error:', error));
-
-      `;
-      cardContainer.appendChild(card);
     }
   })
 
