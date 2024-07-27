@@ -1,4 +1,4 @@
-const csvUrl = 'data.csv';
+const csvUrl = "data.csv";
 
 fetch(csvUrl)
     .then(response => response.text())
