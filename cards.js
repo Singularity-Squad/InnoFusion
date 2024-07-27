@@ -18,13 +18,13 @@ fetch(csvFile)
       const imgs = row[imgIndex];
       const card = document.createElement('div');
       card.classList.add('card');
-      /*card.innerHTML = `
+      card.innerHTML = `
         <!-- <h3>${title}</h3> -->
         <h3>${description}</h3>
         <img src=${imgs}></img>
-      `;*/
-      card.innerHTML = "cards/cards.html";
-      cardContainer.appendChild(card);
+      `;
+      // card.innerHTML = "cards.html";
+      // cardContainer.appendChild(card);
 
     }
   })
