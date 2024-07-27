@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coupon Checkout</title>
+  </head>
+  <body>
+    <div id="paypal-button-container"></div>
+    <p id="result-message"></p>
+    <script src="https://www.paypal.com/sdk/js?client-id=BAA0ftdbWun8OmFtbaUwpLbYN5xVq1HxzWQ6T60A72NQBljc8dLHk_owZ46eCotcj6qxWKB1wSmZdXagjw&components=hosted-buttons&enable-funding=venmo&currency=USD"></script>
+    <div id="paypal-container-4JF7JPKXCUHYU"></div>
+    <script>
+    paypal.HostedButtons({
+      hostedButtonId: "4JF7JPKXCUHYU",
+    }).render("#paypal-container-4JF7JPKXCUHYU")
+    </script>
+  </body>
+</html>
