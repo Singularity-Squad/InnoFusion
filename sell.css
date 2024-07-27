@@ -176,3 +176,13 @@ a:hover {
          height: 100%;
      }
  }
+ .nav-bar-container img{
+    height: 50px;
+    width: 100px;
+    margin: 0;
+ }
+ .edit{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+ }
