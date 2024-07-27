@@ -2,22 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    
 }
 
-header {
-    background-color:  #648282;;
-    padding: 10px;
-    text-align: center;
-    border-top-right-radius: 0.5rem;
-    width: 100%;
-}
 main {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-image: url('coupon5.jpg');
-    background-size: cover;
     color:rgb(15, 14, 14)
 }
 
@@ -42,7 +32,7 @@ button {
 }
 
 footer {
-    background-color: #333;
+    background-color: #060505;
     color: white;
     text-align: bottom;
     padding: 10px;
@@ -59,25 +49,95 @@ footer p {
 }
 
 
-#navbar {
-    background-color: #293036; 
-    height:2rem;
-    display:flex;
-    align-items:center;
-    justify-content: center;
-    border-bottom-right-radius: 0.5rem;
-    width: 100%;
-}
-
-
-#nav-list {
-    list-style: none;
-    display:flex;
-    align-items:center;
-    justify-content: center;
-    gap:18rem
-}
-
+.border {
+    border:1px solid transparent;
+ }
+ 
+ .border:hover {
+    border:1px solid white;
+    border-radius: 2px;
+ }
+ 
+ .nav-bar {  
+  background-color: #000000;  
+  padding: 1em;  
+  display: flex;  
+  justify-content: space-evenly;  
+  align-items: center; 
+  width:100%; 
+  position: sticky;
+  z-index: 1;
+ }  
+  
+ .nav-bar-container {  
+  width: 100%;  
+  margin: 0 auto;  
+  display: flex;  
+  justify-content: space-evenly;  
+  align-items: center;
+  gap:10rem; 
+  height:3rem;
+ }  
+  
+ .nav-bar-logo {  
+  font-size: 24px;  
+  font-weight: bold;  
+  color: #fff;  
+  text-decoration: none; 
+  margin-left:2px;
+ }  
+  
+ ul.nav-bar-links {  
+  display: flex;  
+  justify-content: space-evenly;  
+  align-items: center;  
+  list-style: none;  
+  margin: 0;  
+  gap: 20px;
+  padding:0;
+  margin-right: 150px;  
+ }  
+  
+ .nav-bar-links li {  
+  margin-right: 20px;  
+  display:flex;
+  justify-content:space-evenly; 
+ }  
+  
+ .nav-bar-links a {  
+  color: #fff;  
+  text-decoration: none;  
+  transition: color 0.2s ease; 
+ }  
+  
+ .nav-bar-links a:hover {  
+  color: #ccc;  
+ }  
+  
+ .nav-bar-search {  
+  display: flex;  
+  align-items: center;   
+  border-right: none; 
+  margin-right:15px;
+ }  
+  
+ .nav-bar-search input[type="search"] {  
+  padding: 10px;  
+  border: 1px solid #ccc;  
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;   
+  width: 200px;  
+ }  
+  
+ .nav-bar-search .search  {  
+  background-color: #333;  
+  color: #fff;  
+  border-left: none;  
+  padding: 10.5px 20px;  
+  border-top-right-radius: 5px;  
+  border-bottom-right-radius: 5px; 
+  cursor: pointer;  
+ }  
 a {
     text-decoration: none;
     color:aliceblue;
@@ -93,3 +153,26 @@ a:hover {
     border:2px solid white;
 }
 
+
+.video{
+    position:absolute ;
+    right:0;
+    bottom: 0;
+    z-index: -1;
+    border-top: none;
+ }
+ 
+ @media(min-aspect-ratio:16/9) /*Screen resolution*/
+ {
+     .video{
+         width: 100%;
+         height: auto;
+     }
+ }
+ @media(max-aspect-ratio:16/9)
+ {
+     .video{
+         width: auto;
+         height: 100%;
+     }
+ }

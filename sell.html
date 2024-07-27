@@ -8,20 +8,30 @@
     <link rel="stylesheet" href="sell.css"> 
 </head>
 <body>
-    <header>
-        <h1>Welcome to our Coupon Code Store</h1>
-    </header>
-    <div id="navbar">  
-            <ul id="nav-list">  
-                <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>  
-                <li><a href="#"><i class="fa-brands fa-sellcast"></i> Sell Coupon Code</a></li>  
-                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i> Buy Coupon Code</a></li>  
-            </ul>  
-          
-    </div>  
+    <div class="nav-bar">  
+        <div class="nav-bar-container">  
+         <a class="nav-bar-logo" href="#"><b>Couponary.in</a> </b> 
+         <ul class="nav-bar-links">  
+          <li><a href="http://127.0.0.1:5500/coupon6.html#home" class="border"><i class="fa-solid fa-house"></i> Home</a></li>  
+          <li><a href="http://127.0.0.1:5500/sell.html#coupon6.html" class="border"><i class="fa-brands fa-sellcast"></i> Sell</a></li>  
+          <li><a href="http://127.0.0.1:5500/coupon6.html#buy-page" class="border" id="buy"><i class="fa-solid fa-cart-shopping"></i> Buy</a></li>  
+          <li><a href="#" class="border"><i class="fa-solid fa-circle-info"></i> About</a></li>  
+ 
+         </ul>  
+         <div class="nav-bar-search border">  
+          <input placeholder="Search..." type="search">  
+          <i class="fa-solid fa-magnifying-glass search" style="background-color: yellowgreen;"></i> 
+         </div>   
+        </div>  
+      </div>   
     <main>
+        <section class="features">
+            <video autoplay loop muted plays-inline class="video">
+              <source src="AnimatedBKG.mp4" type="video/mp4">
+          </video> 
+        </section>
         <div id="sell-section">  
-            <h2><b>Sell Your Coupon Code</h2> </b> 
+            <h2><b><big>Sell Your Coupon Code:</big></h2> </b> 
             <form id="sell-form">  
                 <label for="code"><b><big>Coupon Code:</label> </b></big>
                 <input name="code" id="code" type="text">  
@@ -36,8 +46,8 @@
         </div>  
     </main>
     <footer>
-        <p>&copy; 2023 Coupon Code Store. All rights reserved.</p>
+        <p>&copy; 2024 Coupon Code Store. All rights reserved.</p>
     </footer>
-    <script src="index.js"></script>
+    <script src="coupon6.js"></script>
 </body>
 </html>
