@@ -1,4 +1,4 @@
-const csvUrl = "data.csv";
+const csvUrl = "https://raw.githubusercontent.com/Singularity-Squad/InnoFusion/master/data.csv";
 
 fetch(csvUrl)
     .then(response => response.text())
