@@ -1,5 +1,5 @@
-//const csvFile = "https://raw.githubusercontent.com/Singularity-Squad/InnoFusion/site/cards/data.csv";
-const csvFile = "data.csv";
+//const csvFile = "https://raw.githubusercontent.com/Singularity-Squad/InnoFusion/site/cards/data.csv"; //for localhost
+const csvFile = "data.csv"; //for server
 
 fetch(csvFile)
   .then(response => response.text())
