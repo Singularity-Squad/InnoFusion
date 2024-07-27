@@ -9,8 +9,11 @@
 </head>
 <body id="home">     
       <div class="nav-bar">  
-        <div class="nav-bar-container">  
-         <a class="nav-bar-logo" href="#"><b>Couponary.in</b></a>
+        <div class="nav-bar-container"> 
+          <div class="edit">
+          <img src="logo-of-coupon.png"> 
+         <a class="nav-bar-logo" href="#"><b>
+          Couponary.in</b></a></div>
          <ul class="nav-bar-links">  
           <li><a href="#home" class="border"><i class="fa-solid fa-house"></i> Home</a></li>  
           <li><a href="sell.html" class="border"><i class="fa-brands fa-sellcast"></i> Sell</a></li>  
@@ -37,28 +40,39 @@
         <source src="video.mp4" type="video/mp4">
     </video>  
       <h2><b><big>Available Coupons</big></b></h2>  
-      <div class="Product">
+      <div class="Product" id="card-container">
         <div class="container" id="btn">
-          <h1>Buy coupon</h1>
-          <h2>Flipkart coupon</h2>
-          <p>Get flat 25% off</p>
-          <a href="#" id="code" onclick="add()">Get Code</a>
+          <div class="coupon-card">
+            <h1>Buy coupon</h1>
+            <h2>Flipkart coupon</h2>
+            <p>Get flat 25% off</p>
+            <a href="#" id="code" onclick="add()">Get Code</a>
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+          </div>
         </div>
         <div class="container" id="btn1">
-          <h1>Buy coupon</h1>
-          <h2>Cashback</h2>
-          <p>Get flat 25% off</p>
-          <a href="#"id="code" onclick="add()">Get Code</a >
+            <div class="coupon-card">
+              <h1>Buy coupon</h1>
+              <h2>Cashback</h2>
+            <p>Get flat 25% off</p>
+            <a href="#"id="code" onclick="add()">Get Code</a >
+              <div class="circle1"></div>
+              <div class="circle2"></div>
+          </div>
         </div>
         <div class="container" id="btn2">
-          <h1>Buy coupon</h1>
-          <h2>Amazon coupon</h2>
-          <p>Get flat 25% off</p>
-          <a href="#"id="code" onclick="add()">Get Code</a >
+          <div class="coupon-card"> 
+            
+              <div class="circle1"></div>
+              <div class="circle2"></div>
+            <a href="#"id="code" onclick="add()">Get Code</a >
+              
+            </div>
         </div>
   </div> 
   <div class="payment" id="popup">
-    <iframe src="paypal/client/checkout.html" width="300" height="200"></iframe>
+    <iframe src="/paypal/client/checkout.html" width="300" height="200"></iframe>
     <button onclick="close_popup()">Done</button>
   </div>
     </section>  
