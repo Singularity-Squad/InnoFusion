@@ -21,7 +21,7 @@ fetch(csvFile)
       card.innerHTML = `
         <!-- <h3>${title}</h3> -->
         <h3>${description}</h3>
-        <img src=${imgs}></img>
+        <img src=${imgs} id="resize">
       `;
       // card.innerHTML = "cards.html";
       // cardContainer.appendChild(card);
