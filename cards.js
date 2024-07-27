@@ -7,19 +7,15 @@ fetch(csvFile)
     const rows = data.split('\n');
     const headers = rows[0].split(',');
     const titleIndex = headers.indexOf('title');
-
     const descriptionIndex = headers.indexOf('description');
     const imgIndex = headers.indexOf('image');
-
     const cardContainer = document.getElementById('card-container');
 
     for (let i = 1; i < rows.length; i++) {
       const row = rows[i].split(',');
       const title = row[titleIndex];
-
       const description = row[descriptionIndex];
       const imgs = row[imgIndex];
-
       const card = document.createElement('div');
       card.classList.add('card');
       card.innerHTML = `
