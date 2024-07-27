@@ -14,7 +14,7 @@ fetch(csvUrl)
 
             const image = document.createElement('img');
             imgs = row[headers.indexOf('image')];
-            card.appendChild(image);
+            //card.appendChild(image);
             plats=row[headers.indexOf('platform')];
             codeds=row[headers.indexOf('code')];
 
