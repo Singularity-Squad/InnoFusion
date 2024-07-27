@@ -13,16 +13,18 @@ fetch(csvUrl)
             card.classList.add('card');
 
             const image = document.createElement('img');
-            image.src = row[headers.indexOf('image')];
+            imgs = row[headers.indexOf('image')];
             card.appendChild(image);
 
             const content = document.createElement('div');
             content.classList.add('card-content');
             //content.textContent = `
             content.innerHTML = `
+                <img src="${imgs}>
                 <strong>Platform:</strong> ${row[headers.indexOf('platform')]}
                 <br>
                 <strong>Code:</strong> ${row[headers.indexOf('code')]}
+                
             `;
             card.appendChild(content);
 
