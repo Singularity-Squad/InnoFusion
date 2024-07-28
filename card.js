@@ -20,7 +20,6 @@ fetch(csvUrl)
             const content = document.createElement('div');
             content.classList.add('card-content');
             content.innerHTML = `
-            <div class="container">
               <div class="coupon">
                 <div class="left">
                   <div>${plats}</div>
