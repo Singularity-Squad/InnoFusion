@@ -37,4 +37,4 @@ function sellsub()
             form.reset();
         });
     }
-        .catch(error => console.error(error));
+        .catch(error => console.log();(error));
