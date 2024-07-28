@@ -47,7 +47,7 @@ fetch(csvUrl)
     .catch(error => console.error(error));
   }
 };
-window.onload()
+window.onload=function()
 {
   setup();
 };
