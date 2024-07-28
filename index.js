@@ -40,4 +40,4 @@ function sellsub()
             // form.reset();
         });
     }
-        // .catch(error => console.log(error));
+        .catch(error => console.log(error));
