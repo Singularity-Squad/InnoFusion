@@ -69,7 +69,105 @@ fetch(csvUrl)
                   </div>
                 </div>
             </div>
-                <br>
+            <div class="container2">
+                <div class="coupon">
+                  <div class="left">
+                    <div>${plats}</div>
+                  </div>
+                  <div class="center">
+                    <div>
+        
+                      <h3>${desc}</h3>
+                      <small>Valid until ${exp}</small>
+                    </div>
+                  </div>
+                  <div class="right">
+                    <a id="code" onclick="add()">Get Code</a>
+                  </div>
+                </div>
+                <div class="coupon">
+                  <div class="left">
+                    <div>${plats}</div>
+                  </div>
+                  <div class="center">
+                    <div>
+        
+                      <h3>${desc}</h3>
+                      <small>Valid until ${exp}</small>
+                    </div>
+                  </div>
+                  <div class="right">
+                    <a id="code" onclick="add()">Get Code</a>
+                  </div>
+                </div>
+                <div class="coupon">
+                  <div class="left">
+                    <div>${plats}</div>
+                  </div>
+                  <div class="center">
+                    <div>
+        
+                      <h3>${desc}</h3>
+                      <small>Valid until ${exp}</small>
+                    </div>
+                  </div>
+                  <div class="right">
+                    <a id="code" onclick="add()">Get Code</a>
+                  </div>
+                </div>
+              </div>
+              <div class="container3">
+              
+                  <div class="coupon">
+                      <div class="left">
+                        <div>${plats}</div>
+                      </div>
+                      <div class="center">
+                        <div>
+            
+                          <h3>${desc}</h3>
+                          <small>Valid until ${exp}</small>
+                        </div>
+                      </div>
+                      <div class="right">
+                        <a id="code" onclick="add()">Get Code</a>
+                      </div>
+                    </div>
+              
+              
+                    <div class="coupon">
+                      <div class="left">
+                        <div>${plats}</div>
+                      </div>
+                      <div class="center">
+                        <div>
+            
+                          <h3>${desc}</h3>
+                          <small>Valid until ${exp}</small>
+                        </div>
+                      </div>
+                      <div class="right">
+                        <a id="code" onclick="add()">Get Code</a>
+                      </div>
+                    </div>
+              
+              
+                    <div class="coupon">
+                      <div class="left">
+                        <div>Lenskart</div>
+                      </div>
+                      <div class="center">
+                        <div>
+            
+                          <h3>${desc}</h3>
+                          <small>Valid until ${exp}</small>
+                        </div>
+                      </div>
+                      <div class="right">
+                        <a id="code" onclick="add()">Get Code</a>
+                      </div>
+                    </div>
+                  </div>
             `;
             card.appendChild(content);
 
