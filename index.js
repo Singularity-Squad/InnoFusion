@@ -37,7 +37,7 @@ function sellsub()
 
             // Display a success message or clear form fields
             alert('Data saved successfully!');
-            form.reset();
+            // form.reset();
         });
     }
         .catch(error => console.log(error));
