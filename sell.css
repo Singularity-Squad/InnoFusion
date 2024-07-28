@@ -127,8 +127,7 @@ footer p {
   border: 1px solid #ccc;  
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;   
-  width: 200px; 
-  height:2.3rem; 
+  width: 200px;  
  }  
   
  .nav-bar-search .search  {  
@@ -189,5 +188,3 @@ a:hover {
     gap: 0.5rem;
     padding-top: 20px;
  }
-
- 
