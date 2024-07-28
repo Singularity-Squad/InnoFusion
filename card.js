@@ -15,6 +15,7 @@ fetch(csvUrl)
             plats=row[headers.indexOf('platform')];
             codeds=row[headers.indexOf('code')];
             exp=row[headers.indexOf('expd')];
+            dsc=row[headers.indexOf('desc')];
 
             const content = document.createElement('div');
             content.classList.add('card-content');
@@ -28,13 +29,13 @@ fetch(csvUrl)
                 <br>
                 <div class="coupon">
                 <div class="left">
-                  <div>Flipkart</div>
+                  <div>${plats}</div>
                 </div>
                 <div class="center">
                   <div>
                    <!-- <img src="logo12.png" id="resize"> -->
-                    <h3>Coupon</h3>
-                    <small>Valid until May 2023</small>
+                    <h3>${dsc}</h3>
+                    <small>Valid until ${exp}</small>
                   </div>
                 </div>
                 <div class="right">
