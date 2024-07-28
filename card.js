@@ -27,7 +27,6 @@ fetch(csvUrl)
                 </div>
                 <div class="center">
                   <div>
-                   <!-- <img src="logo12.png" id="resize"> -->
                     <h3>${desc}</h3>
                     <small>Valid until ${exp}</small>
                   </div>
