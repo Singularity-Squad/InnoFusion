@@ -19,8 +19,6 @@ fetch(csvUrl)
             const content = document.createElement('div');
             content.classList.add('card-content');
             content.innerHTML = `
-                <img src=${imgs}>
-                <br>
                 <strong>Platform:</strong> ${plats}
                 <br>
                 <strong>Code:</strong> ${codeds}
