@@ -74,51 +74,7 @@ body {
 
    
 } 
-  
-/*.product-grid {  
-   display: grid;  
-   grid-template-columns: repeat(3, 1fr);  
-   grid-gap: 20px;  
-}  
-  
-.product {  
-   background-color: #fff;  
-   padding: 20px;  
-   border: 1px solid #ddd;  
-   border-radius: 10px; 
-   object-fit: contain; 
-}  
-  
-.product img {  
-   width: 100%;  
-   height: 150px;  
-   object-fit: cover;  
-   border-radius: 10px 10px 0 0;  
-}  
-  
-.product h3 {  
-   font-size: 18px;  
-   margin-bottom: 10px;  
-}  
-  
-.product p {  
-   font-size: 16px;  
-   margin-bottom: 20px;  
-}  
-  
-.product button {  
-   background-color: #333;  
-   color: #fff;  
-   border: none;  
-   padding: 10px 20px;  
-   font-size: 18px;  
-    cursor: pointer;  
-}  
-  
-.product button:hover {  
-  background-color: #444;  
-}  */
-  
+
 footer {
  background-color:rgb(11, 11, 19);
  color:#ddd;
@@ -222,31 +178,7 @@ border-top-right-radius: 5px;
 border-bottom-right-radius: 5px; 
 cursor: pointer;  
 }  
-/* .Product{
-display: flex;
-gap:20px;
-flex-direction: row;
-} */
-/* .container{
-/* width: 100%; */
-/* height: 10vh;
-border-radius: 15px;
-display: flex;
-justify-content: center;
-align-items: center; */ 
-/* .container:hover{
-transition: 1s;
-background-color: #F0EBE3;
-#code{
-    transition: 1s;
-background-color: #1af32c;
-}
-} */
 
-/* .logo{
-width: 80px;
-border-radius: 8px;
-margin-bottom: 20px;} */
 .payment{
 height: 50vh;
 position: absolute;
@@ -260,17 +192,7 @@ transition: 0.5s , top 0.5s;
 z-index: 1;
 background-color:#fff5f5; 
 }
-/* .payment img{
-height: 45vh;
-border-radius: 10%;
-padding:  0 0 10px 0;
-}
-.payment p{
-height: 5vh;
-font-size: 30px;
-font-weight: 500;
-margin: 30px 0 10px;
-} */
+
 .payment button{
 text-align:end;
 height: 30px;
@@ -574,41 +496,6 @@ gap: 0.5rem;
    text-align: center;
    }
 
-   /* .container{
-       display:flex;
-       gap:3rem;
-       margin-left: 2rem;
-       padding-left:4rem;
-       justify-content: center;
-   }
-   
-
-   .container2 {
-        margin-top:2rem; 
-       display:flex;
-       gap:3rem;
-       margin-left: 2rem;
-       padding-left:4rem;
-       justify-content: center;
-       /* display:;
-       gap:1rem;
-       justify-content: center; }
-   
-   .container3 {
-       margin-top:2rem;
-       margin-left: 2rem;
-       display:flex;
-       gap:3rem;
-       justify-content: center;
-       padding-left:4rem;
-   }
-
-   .container4{
-       margin-top:2rem;
-       display:flex;
-       gap:1rem;
-       justify-content: start;
-   } */
 #resize{
    height: 100px;
    width: 100px;
