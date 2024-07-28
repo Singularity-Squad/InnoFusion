@@ -19,11 +19,13 @@ fetch(csvUrl)
             const content = document.createElement('div');
             content.classList.add('card-content');
             content.innerHTML = `
+                <br>
                 <strong>Platform:</strong> ${plats}
                 <br>
                 <strong>Code:</strong> ${codeds}
                 <br>
                 <strong>Expiry:</strong> ${exp}
+                <br>
             `;
             card.appendChild(content);
 
