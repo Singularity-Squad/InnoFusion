@@ -35,6 +35,7 @@ fetch(csvUrl)
                   <a id="code" onclick="add()">Get Code</a>
                 </div>
               </div>
+            </div>
             `;
             card.appendChild(content);
 
