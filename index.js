@@ -1,4 +1,4 @@
-import { cors } from "cors";
+// import { cors } from "cors";
 var blury= document.getElementById("btn");
 var popup = document.getElementById("popup");
 function add()
