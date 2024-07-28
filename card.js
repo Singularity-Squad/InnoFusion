@@ -20,20 +20,12 @@ fetch(csvUrl)
             const content = document.createElement('div');
             content.classList.add('card-content');
             content.innerHTML = `
-                <br>
-                <strong>Platform:</strong> ${plats}
-                <br>
-                <strong>Code:</strong> ${codeds}
-                <br>
-                <strong>Expiry:</strong> ${exp}
-                <br>
                 <div class="coupon">
                 <div class="left">
                   <div>${plats}</div>
                 </div>
                 <div class="center">
                   <div>
-                   <!-- <img src="logo12.png" id="resize"> -->
                     <h3>${dsc}</h3>
                     <small>Valid until ${exp}</small>
                   </div>
