@@ -24,13 +24,16 @@ function sellsub()
             const platform = document.getElementById('platform').value;
             const code = document.getElementById('code').value;
             const price = document.getElementById('price').value;
+            console.log("data updated")
 
             // Create a CSV string
             const csvData = `${code},${price},${platform},${expd},${email}\n`;
+            console.log("CSV stuctured")
 
             // Append to local storage (not ideal for production)
             const existingData = localStorage.getItem("data.csv") || '';
             localStorage.setItem("data.csv", existingData + csvData);
+            console.log("Local Storage Updated")
 
             // Display a success message or clear form fields
             alert('Data saved successfully!');
