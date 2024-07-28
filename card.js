@@ -20,20 +20,55 @@ fetch(csvUrl)
             const content = document.createElement('div');
             content.classList.add('card-content');
             content.innerHTML = `
-                <div class="coupon">
+            <div class="container">
+              <div class="coupon">
                 <div class="left">
                   <div>${plats}</div>
                 </div>
                 <div class="center">
                   <div>
-                    <h3>${dsc}</h3>
+                   <!-- <img src="logo12.png" id="resize"> -->
+                    <h3>${desc}</h3>
                     <small>Valid until ${exp}</small>
                   </div>
                 </div>
                 <div class="right">
                   <a id="code" onclick="add()">Get Code</a>
                 </div>
+              </div>
+              
+              
+                <div class="coupon">
+                  <div class="left">
+                    <div>${plats}</div>
+                  </div>
+                  <div class="center">
+                    <div>
+        
+                      <h3>${desc}</h3>
+                      <small>Valid until ${exp}</small>
+                    </div>
+                  </div>
+                  <div class="right">
+                    <a id="code" onclick="add()">Get Code</a>
+                  </div>
                 </div>
+                <div class="coupon">
+                  <div class="left">
+                    <div>${plats}</div>
+                  </div>
+                  <div class="center">
+                    <div>
+        
+                      <h3>${desc}</h3>
+                      <small>Valid until ${exp}</small>
+                    </div>
+                  </div>
+                  <div class="right">
+                    <a id="code" onclick="add()">Get Code</a>
+                  </div>
+                </div>
+            </div>
                 <br>
             `;
             card.appendChild(content);
