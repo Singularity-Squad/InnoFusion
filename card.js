@@ -26,6 +26,22 @@ fetch(csvUrl)
                 <br>
                 <strong>Expiry:</strong> ${exp}
                 <br>
+                <div class="coupon">
+                <div class="left">
+                  <div>Flipkart</div>
+                </div>
+                <div class="center">
+                  <div>
+                   <!-- <img src="logo12.png" id="resize"> -->
+                    <h3>Coupon</h3>
+                    <small>Valid until May 2023</small>
+                  </div>
+                </div>
+                <div class="right">
+                  <a id="code" onclick="add()">Get Code</a>
+                </div>
+                </div>
+                <br>
             `;
             card.appendChild(content);
 
