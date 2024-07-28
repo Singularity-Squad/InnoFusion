@@ -1,9 +1,4 @@
-function setup()
-{
-  var button=document.getElementById("sell-button")
-  const csvUrl = "https://raw.githubusercontent.com/Singularity-Squad/InnoFusion/master/data.csv";
-button.onclick=function()
-{
+const csvUrl = "https://raw.githubusercontent.com/Singularity-Squad/InnoFusion/master/data.csv";
 fetch(csvUrl)
     .then(response => response.text())
     .then(data => {
@@ -45,9 +40,4 @@ fetch(csvUrl)
         }
     })
     .catch(error => console.error(error));
-  }
-};
-window.onload=function()
-{
-  setup();
-};
+
