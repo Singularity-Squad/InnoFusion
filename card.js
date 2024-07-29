@@ -19,6 +19,7 @@ fetch(csvUrl)
             const content = document.createElement('div');
             content.classList.add('card-content');
             content.innerHTML = `
+            <div class="coupon">
               <div class="left">
                 <div>Flipkart</div>
               </div>
@@ -32,6 +33,7 @@ fetch(csvUrl)
               <div class="right">
                 <a id="code" onclick="add()">Get Code</a>
               </div>
+            </div>  
             `;
             card.appendChild(content);
 
