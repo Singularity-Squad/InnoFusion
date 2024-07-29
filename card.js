@@ -19,18 +19,21 @@ fetch(csvUrl)
             const content = document.createElement('div');
             content.classList.add('card-content');
             content.innerHTML = `
-              <div class="coupon">
-                <div class="left">
-                  <div>${plats}</div>
-                </div>
-                <div class="center">
-                  <div>
-                    <h3>${desc}</h3>
-                    <small>Valid until ${exp}</small>
+              <div class="container">
+                <div class="coupon">
+                  <div class="left">
+                    <div>Flipkart</div>
                   </div>
-                </div>
-                <div class="right">
-                  <a id="code" onclick="add()">Get Code</a>
+                  <div class="center">
+                    <div>
+                      <img src="logo12.png" id="resize">
+                      <h3>Flat 40% OFF</h3>
+                      <small>Valid until May 2023</small>
+                    </div>
+                  </div>
+                  <div class="right">
+                    <a id="code" onclick="add()">Get Code</a>
+                  </div>
                 </div>
               </div>
             `;
