@@ -19,6 +19,47 @@ fetch(csvUrl)
             const content = document.createElement('div');
             content.classList.add('card-content');
             content.innerHTML = `
+                  <link rel="stylesheet" href="index.css">
+                  <style>
+                    .left {
+                      width: 80px;
+                      border-right: 2px dashed rgba(0, 0, 0, 0.15);
+                    }
+ 
+                    .left div {
+                      transform: rotate(-90deg);
+                      white-space: nowrap;
+                      font-weight: bold;
+                    }
+ 
+ .center {
+   flex-grow: 1;
+   text-align: center;
+ }
+ 
+ .right {
+   width: 140px;
+   background-image: radial-gradient(circle at 100% 50%, transparent 25px, #fff 26px);
+   
+ }
+ 
+ .right a{
+   font-family: 'Libre Barcode 128 Text', cursive;
+   font-size: 1rem;
+   padding-right:1.5rem;
+   cursor: pointer;
+ }
+
+ .center h3 {
+   font-size: 2.15rem;
+ }
+ 
+ .center small {
+   font-size: 0.625rem;
+   font-weight: 600;
+   letter-spacing: 2px;
+ }
+                  </style>
                   <div class="left">
                     <div>Flipkart</div>
                   </div>
@@ -31,7 +72,7 @@ fetch(csvUrl)
                   </div>
                   <div class="right">
                     <a id="code" onclick="add()">Get Code</a>
-                  </div>
+                  </div>`
             `;
             card.appendChild(content);
 
@@ -39,4 +80,3 @@ fetch(csvUrl)
         }
     })
     .catch(error => console.error(error));
-
