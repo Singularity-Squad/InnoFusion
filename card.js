@@ -1,4 +1,4 @@
-const csvUrl = "https://raw.githubusercontent.com/Singularity-Squad/InnoFusion/master/data.csv";
+const csvUrl = "https://raw.githubusercontent.com/Singularity-Squad/InnoFusion/xpert0-fix/data.csv";
 fetch(csvUrl)
     .then(response => response.text())
     .then(data => {
