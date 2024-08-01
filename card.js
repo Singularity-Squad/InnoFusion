@@ -17,8 +17,9 @@ fetch(csvUrl)
             dsc=row[headers.indexOf('desc')];
 
             const content = document.createElement('div');
-            content.classList.add('card-content');
+            content.classList.add('container');
             content.innerHTML =`
+              <div class="card-content">
                 <div class="left">
                   <div>${plats}</div>
                 </div>
@@ -31,6 +32,7 @@ fetch(csvUrl)
                 <div class="right">
                   <a id="code" onclick="add()">Get Code</a>
                 </div>
+              </div>
             `;
             card.appendChild(content);
 
